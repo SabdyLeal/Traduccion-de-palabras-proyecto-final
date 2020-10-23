@@ -1,0 +1,115 @@
+Palabra:asm
+Traducción:Ensamblador
+Funcionalidad:Se utiliza para incluir directamente código ensamblador en su programa C++. El uso correcto de asm depende de la implementación.
+
+Palabra:auto
+Traducción:(No tiene traducción)
+Funcionalidad:Deduce el tipo de una variable declarada a partir de su expresión de inicialización.
+
+Palabra:bool
+Traducción:Booleano
+Funcionalidad: Variable de tipo entero  cuyo valores pueden ser true o false .Las funciones tipo bool, indican que el tipo de dato que retornan las mismas.
+
+Palabra:break
+Traducción:Quebrar
+Funcionalidad:permite salir del bucle do, while o for más interno. También se utliza para salir de una sentencia switch.
+
+Palabra:case
+Traducción:Caso
+Funcionalidad:Sirve para etiquetar los diferentes casos de la sentencia switch
+
+Palabra:catch
+Traducción:Captura
+Funcionalidad:Se utiliza como mecanismo de tratamiento de excepciones. Su propósito es interceptar una excepción generada por throw.
+
+Palabra:char
+Traducción:Carácter nulo
+Funcionalidad:Tipo de dato incorporado en C++. Se puede utilizar char para declarar variables carácter (tienen un rango de 0 a 255 en código ASCII).
+
+Palabra:class
+Traducción:Clase
+Funcionalidad:Una clase contiene variables miembros datos y funciones miembro que operan sobre esas variables; asimismo, una clase tiene un conjunto de especificadores que controlan el acceso a los miembros de la clase (private, public y protected).
+
+Palabra:const
+Traducción:Constante
+Funcionalidad:Es un calificador de tipo, utilizado para indicar que la variable que le sigue no puede ser modificada por el programa.
+
+Palabra:castconst_cast
+Traducción:Operador
+Funcionalidad:Permite acceder a un objeto con el atributo const o volatile adjuntado. El tipo T debe ser del mismo tipo que el operando e excepto para los modificadores const y volatile y el resultado evuelto por const_cast() es el mismo que e pero de tipo T.
+
+Palabra:continue
+Traducción:Continuar
+Funcionalidad:Se utiliza continue en la ejecución de un bucle. Es equivalente a ejecutar una sentencia goto al final del bucle. Esta sentencia afecta al bucle más interno en el que aparece.
+
+Palabra:default
+Traducción:Defecto
+Funcionalidad:Se utiliza en la sentencia switch para marcar el código que se ejecutará cuando ninguna de las etiquetas de case se corresponde con la expresión
+
+Palabra:delete
+Traducción:Eliminar
+Funcionalidad:"El operador de asignación dinámica delete se utiliza para liberar la memoria
+apuntada por su argumento (asignada utilizando new)"
+
+Palabra:do
+Traducción:Hacer
+Funcionalidad:La instrucción do ejecuta una instrucción o un bloque de instrucciones mientras que una expresión booleana especificada se evalúa como true. Como esa expresión se evalúa después de cada ejecución del bucle, un bucle do-while se ejecuta una o varias veces.
+
+Palabra:double
+Traducción:Doble
+Funcionalidad:Especificador de tipo de dato double que declara variables y arrays de coma flotante de doble.
+
+Palabra:dynamic_cast
+Traducción:Reparto dinámico
+Funcionalidad:Este operador se puede utilizar para moldear (convertir explícitamente) a un puntero o a un tipo referencia.
+
+Palabra:else
+Traducción:De otro modo
+Funcionalidad:La estructura de control if ... else ... permite que un programa ejecute unas instrucciones cuando se cumple una condición y otras instrucciones cuando no se cumple esa condición. En inglés "if" significa "si" (condición) y "else" significa "si no".
+
+Palabra:enum
+Traducción:Enumeración
+Funcionalidad:Tipo de datos de valor entero que puede tomar sus valores de una lista de constantes enumerados.
+
+Palabra:explicit
+Traducción:Explícito
+Funcionalidad:"Declara un constructor explícito. Se utiliza para exponer variables pertenecientes a un archivo a uno o varios archivos adicionales.
+"
+
+Palabra:extern
+Traducción:Externo
+Funcionalidad:Especificador de clase de almacenamiento utilizado para indicar al compilador que una variable se declara en otra parte del programa.
+
+Palabra:false
+Traducción:FALSO
+Funcionalidad:"Literal boolean de valor cero. Con el fin de facilitar la escritura y razonamientos de programas se admite el uso de variables bipolares. 
+"
+
+Palabra:float
+Traducción:Flotante
+Funcionalidad:Es un especificador de tipos de datos utilizados para declarar variables de coma flotante esto es, contienen un valor de mantisa y otro de exponente, que codifican números con decimales.
+
+Palabra:for
+Traducción:Desde
+Funcionalidad:El bucle for permite inicializar e incrementar variables contadores.
+
+Palabra:friend
+Traducción:Amigo
+Funcionalidad:La palabra reservada friend se utiliza para garantizar el acceso a una parte privada (private) de una clase, por una función que no es miembro de ella y a las partes protegidas (protected) de una clase de la cual no se derivan. Las funciones amigas pueden ser amigas de más de una clase.
+
+Palabra:goto
+Traducción:IrA
+Funcionalidad:Produce un salto en la ejecución del programa a una etiqueta de la función actual. Su uso no está recomendado más que para situaciones excepcionales tales como la salida directa del bucle más interior perteneciente a una serie de bucles anidados.
+
+Palabra:if
+Traducción:si
+Funcionalidad: Un if en programación se utiliza para evaluar una expresión condicional: si se cumple la condición (es verdadera), ejecutará un bloque de código. Si es falsa, es posible ejecutar otras sentencias. Como hemos dicho, la condición es una condición lógica, sólo devolverá true o false , y se ejecutará si su valor es true .
+
+Palabra:inline
+Traducción:En línea
+Funcionalidad:El especificador inline instruye al compilador para sustituir las llamadas a funciones con el código del cuerpo de la función. Esta sustitución se denomina expansión en línea.El uso de las funciones en línea incrementa el tamaño del programa objeto.
+
+
+Palabra:int
+Traducción:Entero
+Funcionalidad:Especificador de tipo para variables y arrays de enteros. Los cualificadores short y long se pueden utilizar para declarar un entero del tamaño deseado.
